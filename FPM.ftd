@@ -1,0 +1,5 @@
+-- import: fpm
+
+-- fpm.package: arpita-jaiswal/vivekanand-hi
+language: hi
+translation-of: arpita-jaiswal/vivekanand
