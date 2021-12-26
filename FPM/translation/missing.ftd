@@ -1,8 +1,0 @@
--- import: fpm
-
--- ftd.row:
-spacing: 5
-position: right
-
---- ftd.text: $fpm.document-id
---- ftd.text: : इसका अनुवाद अभी तक नहीं हुआ है
