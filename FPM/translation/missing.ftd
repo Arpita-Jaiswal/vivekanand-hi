@@ -1,8 +1,8 @@
 -- import: fpm
 
 -- ftd.row:
-margin-left: 270
-spacing: 5
+padding-left: 270
+spacing: space-between
 width: fill
 height: fill
 
