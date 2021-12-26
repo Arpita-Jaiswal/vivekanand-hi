@@ -1,8 +1,26 @@
 -- import: fpm
 
 -- ftd.row:
+margin-left: 270
 spacing: 5
-position: right
+width: fill
+height: fill
+
+--- message:
+--- lang-toc:
+
+-- ftd.row message:
+spacing: 5
 
 --- ftd.text: $fpm.document-id
---- ftd.text: : इसका अनुवाद अभी तक नहीं हुआ है
+--- ftd.text: : इसका अनुवाद अभी तक नहीं हुआ है |
+
+-- ftd.row lang-toc:
+spacing: 10
+position: right
+
+--- ftd.text: अन्य उपलब्ध भाषाएं:
+
+--- ftd.text: $obj.title
+$loop$: $fpm.language-toc as $obj
+link: $obj.url
