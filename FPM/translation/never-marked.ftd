@@ -1,0 +1,46 @@
+-- import: fpm
+
+-- ftd.row:
+padding-left: 270
+spacing: space-around
+width: fill
+height: fill
+
+--- message:
+--- show-page:
+--- lang-toc:
+
+-- ftd.row message:
+spacing: 5
+
+--- ftd.text: $fpm.document-id
+--- ftd.text: : यह चिह्नित नहीं है |
+
+-- ftd.row lang-toc:
+spacing: 10
+position: right
+
+--- ftd.text: अन्य उपलब्ध भाषाएं:
+
+--- ftd.text: $obj.title
+$loop$: $fpm.language-toc as $obj
+link: $obj.url
+
+
+-- boolean show-main: true
+
+-- ftd.row show-page:
+margin-left: 20
+color: blue
+
+--- ftd.text: हिंदी दिखाए
+style: underline
+if: $show-main
+$event-click$: toggle $show-main
+$event-click$: message-host show_fallback
+
+--- ftd.text: अंग्रेज़ी दिखाए
+style: underline
+if: not $show-main
+$event-click$: toggle $show-main
+$event-click$: message-host show_main
