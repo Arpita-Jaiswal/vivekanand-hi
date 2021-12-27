@@ -1,6 +1,6 @@
 -- import: fpm
 
--- fpm.package: arpita-jaiswal/vivekanand-hi
+-- fpm.package: arpita-jaiswal.github.io/vivekanand-hi
 language: hi
-translation-of: arpita-jaiswal/vivekanand
-domain: https://arpita-jaiswal.github.io/vivekanand-hi/
+zip: github.com/arpita-jaiswal/vivekanand-hi/archive/refs/heads/main.zip
+translation-of: arpita-jaiswal.github.io/vivekanand
