@@ -1,0 +1,6 @@
+-- import: fpm
+
+-- fpm.package: arpita-jaiswal.github.io/vivekanand-hi
+language: hi
+zip: github.com/arpita-jaiswal/vivekanand-hi/archive/refs/heads/main.zip
+translation-of: arpita-jaiswal.github.io/vivekanand
