@@ -1,0 +1,22 @@
+-- import: fpm
+
+-- fpm.snapshot: FPM.ftd
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: FPM/translation/missing.ftd
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: FPM/translation/never-marked.ftd
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: LICENSE
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: README.md
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: config.ftd
+timestamp: 1640805843564605000
+
+-- fpm.snapshot: index.ftd
+timestamp: 1640805843564605000
