@@ -14,3 +14,6 @@ timestamp: 1640805843564605000
 
 -- fpm.snapshot: index.ftd
 timestamp: 1640805843564605000
+
+-- fpm.snapshot: response-to-welcome.ftd
+timestamp: 1640872742968274000
